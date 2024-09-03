@@ -1,0 +1,98 @@
+body{
+    background-color: gray;
+}
+#container{
+    width:30vw;
+    height:82vh;
+    background-color: gray;
+   
+    margin:auto;
+    background-color: #3b0808;
+
+}
+#time{
+    position: relative;
+    top:2vh;
+    left:5vw;
+    width: 20vw;
+    height:20vw;
+    border-radius:50%;
+    background-color: white;
+    color:rgb(8, 8, 8);
+    font-size:4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#timeLap{
+    color:black;
+    font-size:2vw;
+    position:relative;
+    bottom:7.6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#time #second{
+    display: inline-block;
+    color:rgb(6, 6, 6);
+}
+#button{
+    position: relative;
+    top:13vw;
+    text-align: center;
+}
+#button button{
+    margin-right:2vw;
+    width:4vw;
+    height:4vw;
+    border-radius: 50%;
+    font-size:2vw;
+    font-weight: lighter;
+    border:none;
+}
+#button button:nth-of-type(2){
+    background-color:rgb(4, 4, 4);
+    color:white;
+}
+.btn1-before{
+    opacity: 0;
+    transform: translateX(2.5vw);
+    transition: transform 0.3s ease-in,opacity 0.5s ease-in;
+}
+.btn1-after{
+    opacity: 1;
+    transform: translateX(-1vw);
+    transition: transform 0.3s ease-in ,opacity 0.5s ease-in;
+}
+.btn3-before{
+    opacity: 0;
+    transform: translateX(-2.5vw);
+    transition: transform 0.3s ease-in,opacity 0.5s ease-in;
+}
+.btn3-after{
+    opacity: 1;
+    transform: translateX(1vw);
+    transition: transform 0.3s ease-in ,opacity 0.5s ease-in;
+    transition: transform 0.3s ease-in-out ,opacity 0.5s ease-in;
+}
+#timeLap{
+    opacity:0;
+}
+.lapReading{
+    display: grid;
+    grid-template-columns: 9.3vw 9.3vw 9.3vw;
+    width:28vw;
+    position:absolute;
+    margin:1vw;
+    color:white;
+    font-size:1.5vw;
+    opacity:0;
+}
+.lapReading div:nth-of-type(3n){
+    justify-self: center;
+}
+.lapReading div:nth-of-type(3n){
+    justify-self: right;
+}
