@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="home">
+        <div class="home-content">
+            <h1>Hello, I'm Niraj S</h1>
+            <p>A passionate Web Developer.</p>
+            <button onclick="scrollToSection('about')">Learn More About Me</button>
+        </div>
+        <img src="profile-photo.jpg" alt="Profile Photo" class="profile-photo">
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm Niraj S, a web developer specializing in front-end development. I have a strong background in computer science and experience in creating dynamic, responsive websites and web applications.</p>
+        <h3>Education</h3>
+        <p>MCA - XYZ University</p>
+        <p>BCA - ABC College</p>
+        <h3>Skills</h3>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Node.js, MongoDB</li>
+            <li>UI/UX Design, SEO</li>
+        </ul>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-card">
+            <h3>Project 1: Portfolio Website</h3>
+            <p>A personal portfolio website showcasing my skills and projects.</p>
+        </div>
+        <div class="project-card">
+            <h3>Project 2: Driving School Management System</h3>
+            <p>A full-stack web application built using the MERN stack for managing driving schools.</p>
+        </div>
+        <!-- Add more project cards as needed -->
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to reach out via email or follow me on social media.</p>
+        <a href="mailto:example@example.com" class="contact-button">Send Email</a>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Niraj S. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
