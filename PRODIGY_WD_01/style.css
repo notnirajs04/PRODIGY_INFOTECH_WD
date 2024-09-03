@@ -1,0 +1,142 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+#container {
+    width: 96vw;
+    height: 100vh;
+    margin-left: 4vw;
+}
+.flex {
+    display: flex;
+}
+#part1 {
+    width: 63vw;
+    height: 95vh;
+    padding-top: 3vh;
+}
+.part1_1 {
+    height: 5vh;
+    background-image: url('Logo.jpg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.part1_2 {
+    margin-top: 8vh;
+}
+.part1_2_1, .part1_2_2 {
+    font-size: 6vw;
+}
+.part1_2_4 {
+    background-color: rgb(128, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 1.5vw;
+    width: 15vw;
+    height: 10vh;
+    text-align: center;
+    margin-top: 1vw;
+    border-radius: 5vw;
+    border: 1px solid green;
+}
+.part1_2_5 {
+    text-align: right;
+    display: flex;
+    float: right;
+    position: relative;
+    right: 6vw;
+    top: 14vh;
+}
+.console {
+    margin-right: 1vw;
+    width: 4vw;
+    height: 6vh;
+}
+.console2 {
+    background-image: url('PS5.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.console1 {
+    background-image: url('Xbox.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.console3 {
+    background-image: url('Switch.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+#part2 {
+    width: 35vw;
+    height: 100vh;
+}
+#part2_1 {
+    height: 20vh;
+    display: flex;
+    padding-top: 3vw;
+    padding-left: 2vw;
+}
+.part2_1_1 {
+    margin-right: 2vw;
+    height: 4vh;
+    font-size: 1.5vw;
+}
+#part2_2 {
+    height: 73.8vh;
+    border-top-left-radius: 100%;
+    background-color: rgb(128, 0, 0);
+}
+#image {
+    display: inline-block;
+    width: 17vw;
+    height: 63vh;
+    background-image: url('Xbox.png'); 
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 5vh 5vw;
+}
+#smallLogoImage {
+    float: right;
+    width: 4vw;
+    height: 20vh;
+    margin-top: 25vh;
+    margin-right: 2vw;
+    text-align: center;
+}
+#facebook, #twitter, #instagram {
+    width: 3vw;
+    height: 5vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-bottom: 1vh;
+}
+#facebook {
+    background-image: url('facebook.jpg');
+}
+#twitter {
+    background-image: url('twitter.jpg');
+}
+#instagram {
+    background-image: url('instagram.jpg');
+}
+.jsnav {
+    position: relative;
+    top: -1vh;
+    background-color: rgb(255, 0, 0);
+    height: 5vh;
+    width: 10vw;
+    text-align: center;
+    padding-top: 1vh;
+    font-style: italic;
+    color: rgb(6, 6, 6);
+    border: 1px solid yellow;
+    border-radius: 5vw;
+}
+.jslogoposition {
+    position: relative;
+    top: -2.5vh;
+}
+.jsbutton {
+    color: red;
+    font-style: italic;
+}
